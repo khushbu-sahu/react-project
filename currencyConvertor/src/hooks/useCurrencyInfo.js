@@ -12,5 +12,5 @@ function useCurrencyInfo(currency){
 
 return data
 }
-
+<div>hello</div>
 export default useCurrencyInfo;
