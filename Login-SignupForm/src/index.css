@@ -1,0 +1,14 @@
+/* body{
+    background-color: rgb(27, 44, 121);
+} */
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffffff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+  }
+  

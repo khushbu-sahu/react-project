@@ -13,29 +13,29 @@ function App() {
           <div className='flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-xl'>
 
             <button
-            onClick={()=>setColor("red")}
-            
-            className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+              onClick={() => setColor("red")}
+
+              className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
               style={{ backgroundColor: "red" }}
             > Red</button>
 
 
             <button className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
-                         onClick={()=>setColor("blue")}
+              onClick={() => setColor("blue")}
 
-             style={{ backgroundColor: "blue" }}
+              style={{ backgroundColor: "blue" }}
             > Blue</button>
 
 
             <button className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
-                          onClick={()=>setColor("green")}
+              onClick={() => setColor("green")}
 
               style={{ backgroundColor: "green" }}
             > green</button>
 
 
             <button className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
-                          onClick={()=>setColor("black")}
+              onClick={() => setColor("black")}
 
               style={{ backgroundColor: "black" }}
             > Black</button>
